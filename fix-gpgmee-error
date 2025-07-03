@@ -1,0 +1,7 @@
+#  if all else fails use this for the gpg keys if theyre not working and type:
+
+sudo rm /var/lib/pacman/sync/*.sig
+
+sudo pacman -Syyu
+
+
